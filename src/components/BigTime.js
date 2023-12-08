@@ -8,9 +8,6 @@ export default function BigTime() {
   const [isRunning, setIsRunning] = useState(false);
 
   const resetTimer = () => {
-    setHours("0");
-    setMinutes("0");
-    setSeconds("0");
     setTimeInSeconds(0);
   };
 
