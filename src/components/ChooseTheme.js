@@ -12,7 +12,7 @@ export default function ChooseTheme({ theme, setTheme }) {
           style={{
             color: colors[i]["time"],
             backgroundColor: colors[i]["bg"],
-            borderBottom: theme == i ? `3px solid ${colors[i]["totalTimeBg"]}` : null,
+            borderBottom: theme === i ? `3px solid ${colors[i]["totalTimeBg"]}` : null,
           }}
           onClick={() => setTheme(i)}
         >
